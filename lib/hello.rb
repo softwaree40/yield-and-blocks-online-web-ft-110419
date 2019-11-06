@@ -2,7 +2,7 @@ require 'pry'
 def hello_t(names)
     #binding.pry
   names.each {|name| puts name}
-   names.each {|name| puts name.upcase}
+   names.each {|name| yield(name)}
   
 end
  
