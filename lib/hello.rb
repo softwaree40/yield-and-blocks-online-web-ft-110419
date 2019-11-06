@@ -1,10 +1,9 @@
 require 'pry'
 def hello_t(names)
-  names.each do|name| 
-  puts name
-  
-    binding.pry
-  end
+  names.each {|name|  puts name }
+ 
+  binding.pry
+   
 end
 
 # call your method here!
