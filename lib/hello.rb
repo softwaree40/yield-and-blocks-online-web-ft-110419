@@ -5,6 +5,6 @@ def hello_t(names)
   
   
 end
-hello_t {puts name}
+  hello_t {puts name}
 # call your method here!
 
