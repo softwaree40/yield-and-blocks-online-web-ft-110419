@@ -1,6 +1,7 @@
 require 'pry'
 def hello_t(array)
-  binding.pry
+   
+   binding.pry
 
 end
 
