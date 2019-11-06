@@ -3,9 +3,7 @@ def hello_t(names)
   names.each do|name| 
   puts name
   
-   
-   
-   binding.pry
+    binding.pry
   end
 end
 
