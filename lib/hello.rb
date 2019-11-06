@@ -1,5 +1,5 @@
 require 'pry'
-def hello_t(names)
+def hello_t(array)
     #binding.pry
  # names.each {|name| puts name}
    #names.each {|name| yield(name)}
